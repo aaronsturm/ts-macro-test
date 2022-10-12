@@ -17,10 +17,9 @@ module.exports = {
           {
             loader: "ts-loader",
             options: {
-              compiler: "ttypescript",
-              getCustomTransformers: (program) => {
-                before: [TsMacros(program)];
-              },
+              getCustomTransformers: (program) => ({
+                before: [TsMacros(program)],
+              }),
             },
           },
         ],
