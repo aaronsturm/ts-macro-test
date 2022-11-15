@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ajv": "^6.12.6",
     "lodash": "^4.17.21",
     "typescript": "^4.8.4"
   },
